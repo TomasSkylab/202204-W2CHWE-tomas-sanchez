@@ -4,7 +4,9 @@
   "description": "## Game of Life",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "style": "sass sass/style.scss css/style.css --watch",
+    "compile": "sass sass/style.scss css/style.css",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -17,6 +19,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "husky": "^7.0.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "sass": "^1.50.0"
   }
 }
