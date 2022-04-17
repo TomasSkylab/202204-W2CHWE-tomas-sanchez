@@ -10,3 +10,7 @@ const createGrid = () => {
   }
   return createGrid;
 };
+
+const pushOrigin = createGrid + 5;
+
+pushOrigin.array.forEach();
